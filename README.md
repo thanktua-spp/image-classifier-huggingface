@@ -1,4 +1,4 @@
---
+---
 title: Image Classifier
 emoji: 🔥
 colorFrom: yellow
