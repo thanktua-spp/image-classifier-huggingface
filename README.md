@@ -1,6 +1,6 @@
 ---
 title: Image Classifier
-emoji: 🔥
+emoji: 📸
 colorFrom: yellow
 colorTo: pink
 sdk: gradio
@@ -10,3 +10,12 @@ pinned: false
 ---
 
 [Try Demo Image classification Here](https://huggingface.co/spaces/ThankGod/image-classifier)
+
+## Credits
+- Hugging face 🤗 for hosting this demo.
+- Hugging face transformer model for image classification transformer model
+- Gradio for the beautiful visualization dashboards.
+
+## References
+- https://gradio.app/
+- https://huggingface.co/
