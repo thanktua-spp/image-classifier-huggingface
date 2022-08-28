@@ -15,9 +15,9 @@ jobs:
           fetch-depth: 0
       - name: Add remote 
         env:
-          HUGGINGFACE: ${{ secrets.HUGGINGFACE }} 
-        run: git remote add space https://ThankGod:$HUGGINGFACE@huggingface.co/spaces/ThankGod/image-classifier
+          HF_TOKEN: ${{ secrets.HUGGINGFACE }} 
+        run: git remote add space https://ThankGod:$HF_TOKEN@huggingface.co/spaces/ThankGod/image-classifier
       - name: Push to hub
         env:
-          HUGGINGFACE: ${{ secrets.HUGGINGFACE }}
-        run: git push --force https://ThankGod:$HUGGINGFACE@huggingface.co/spaces/ThankGod/image-classifier main
+          HF_TOKEN: ${{ secrets.HUGGINGFACE }}
+        run: git push --force https://ThankGod:$HF_TOKEN@huggingface.co/spaces/ThankGod/image-classifier main
