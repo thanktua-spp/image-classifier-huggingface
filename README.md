@@ -9,4 +9,4 @@ app_file: app.py
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+[Try Demo Image classification Here](https://huggingface.co/spaces/ThankGod/image-classifier)
